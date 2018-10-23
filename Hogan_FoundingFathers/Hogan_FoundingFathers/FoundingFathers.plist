@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Number</key>
+		<string>1</string>
+		<key>Name</key>
+		<string>John Adams</string>
+		<key>Title</key>
+		<string>2nd President of the US</string>
+		<key>Years</key>
+		<string>1787-1801</string>
+		<key>Spouse</key>
+		<string>Abigail Smith</string>
+		<key>Party</key>
+		<string>Federalist</string>
+		<key>cell_image</key>
+		<string>JAdams.jpg</string>
+		<key>Image</key>
+		<string>JAdams.jpg</string>
+	</dict>
+	<dict>
+		<key>Number</key>
+		<string>2</string>
+		<key>Name</key>
+		<string>Benjamin Franklin</string>
+		<key>Title</key>
+		<string>6th President of Pennsylvania</string>
+		<key>Years</key>
+		<string>1788-1793</string>
+		<key>Spouse</key>
+		<string>Deborah Read</string>
+		<key>Party</key>
+		<string>Independent</string>
+		<key>cell_image</key>
+		<string>BFranklin.jpg</string>
+		<key>Image</key>
+		<string>BFranklin.jpg</string>
+	</dict>
+	<dict>
+		<key>Number</key>
+		<string>3</string>
+		<key>Name</key>
+		<string>Alexander Hamilton</string>
+		<key>Title</key>
+		<string>1st US Secretary of the Treasury</string>
+		<key>Years</key>
+		<string>1789-1795</string>
+		<key>Spouse</key>
+		<string>Elizabeth Hamilton</string>
+		<key>Party</key>
+		<string>Federalist</string>
+		<key>cell_image</key>
+		<string>AHamilton.jpg</string>
+		<key>Image</key>
+		<string>AHamilton.jpg</string>
+	</dict>
+	<dict>
+		<key>Number</key>
+		<string>4</string>
+		<key>Name</key>
+		<string>John Jay</string>
+		<key>Title</key>
+		<string>2nd Governor of New York</string>
+		<key>Years</key>
+		<string>1795-1801</string>
+		<key>Spouse</key>
+		<string>Sarah Livingston</string>
+		<key>Party</key>
+		<string>Federalist</string>
+		<key>cell_image</key>
+		<string>JJay.jpg</string>
+		<key>Image</key>
+		<string>JJay.jpg</string>
+	</dict>
+	<dict>
+		<key>Number</key>
+		<string>5</string>
+		<key>Name</key>
+		<string>Thomas Jefferson</string>
+		<key>Title</key>
+		<string>3rd president of the US</string>
+		<key>Years</key>
+		<string>1801-1809</string>
+		<key>Spouse</key>
+		<string>Martha Wayles</string>
+		<key>Party</key>
+		<string>Democratic-Republican</string>
+		<key>cell_image</key>
+		<string>TJefferson.jpg</string>
+		<key>Image</key>
+		<string>TJefferson.jpg</string>
+	</dict>
+	<dict>
+		<key>Number</key>
+		<string>6</string>
+		<key>Name</key>
+		<string>James Madison</string>
+		<key>Title</key>
+		<string>4th president of the US</string>
+		<key>Years</key>
+		<string>1809-1817</string>
+		<key>Spouse</key>
+		<string>Dolley Todd</string>
+		<key>Party</key>
+		<string>Democratic-Republican</string>
+		<key>cell_image</key>
+		<string>JMadison.jpg</string>
+		<key>Image</key>
+		<string>JMadison.jpg</string>
+	</dict>
+	<dict>
+		<key>Number</key>
+		<string>7</string>
+		<key>Name</key>
+		<string>George Wasington</string>
+		<key>Title</key>
+		<string>1st president of the US</string>
+		<key>Years</key>
+		<string>1789-1797</string>
+		<key>Spouse</key>
+		<string>Martha Custis</string>
+		<key>Party</key>
+		<string>Independent</string>
+		<key>cell_image</key>
+		<string>GWashington.jpg</string>
+		<key>Image</key>
+		<string>GWashington.jpg</string>
+	</dict>
+</array>
+</plist>

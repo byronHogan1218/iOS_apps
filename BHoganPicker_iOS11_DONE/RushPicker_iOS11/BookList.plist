@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Web Services A Technical Introduction</string>
+		<key>author</key>
+		<string>Harvey M. Deitel</string>
+		<key>ISBN</key>
+		<string>0130461350</string>
+		<key>book_image</key>
+		<string>0130461350.jpg</string>
+		<key>publisher</key>
+		<string>Prentice Hall</string>
+		<key>pub_year</key>
+		<string>2003</string>
+	</dict>
+    <dict>
+        <key>title</key>
+        <string>Programming the World Wide Web, 8th Edition</string>
+        <key>author</key>
+        <string>Robert W. Sebesta</string>
+        <key>ISBN</key>
+        <string>0133775984</string>
+        <key>book_image</key>
+        <string>0133775984.jpg</string>
+        <key>publisher</key>
+        <string>Pearson</string>
+        <key>pub_year</key>
+        <string>2015</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Python in Practice: Create Better Programs Using Concurrency, Libraries, and Patterns</string>
+        <key>author</key>
+        <string>Mark Summerfield</string>
+        <key>ISBN</key>
+        <string>0321905636</string>
+        <key>book_image</key>
+        <string>0321905636.jpg</string>
+        <key>publisher</key>
+        <string>Addison-Wesley Professional</string>
+        <key>pub_year</key>
+        <string>2014</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>iCloud: Visual QuickStart Guide, 2nd Edition</string>
+        <key>author</key>
+        <string>Tom Negrino</string>
+        <key>ISBN</key>
+        <string>0321888960</string>
+        <key>book_image</key>
+        <string>0321888960.jpg</string>
+        <key>publisher</key>
+        <string>Peachpit Press</string>
+        <key>pub_year</key>
+        <string>2013</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>HTML5, CSS3, and jQuery with Adobe Dreamweaver CS5.5 Learn by Video</string>
+        <key>author</key>
+        <string>David Powers</string>
+        <key>ISBN</key>
+        <string>0321788117</string>
+        <key>book_image</key>
+        <string>0321788117.jpg</string>
+        <key>publisher</key>
+        <string>Peachpit Press</string>
+        <key>pub_year</key>
+        <string>2012</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>EPUB Straight to the Point: Creating ebooks for the Apple iPad and other ereaders</string>
+        <key>author</key>
+        <string>Elizabeth Castro</string>
+        <key>ISBN</key>
+        <string>0321734688</string>
+        <key>book_image</key>
+        <string>0321734688.jpg</string>
+        <key>publisher</key>
+        <string>Peachpit Press</string>
+        <key>pub_year</key>
+        <string>2011</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Starting Out With App Inventor for Android</string>
+        <key>author</key>
+        <string>Tony Gaddis</string>
+        <key>ISBN</key>
+        <string>0132955261</string>
+        <key>book_image</key>
+        <string>0132955261.jpg</string>
+        <key>publisher</key>
+        <string>Pearson</string>
+        <key>pub_year</key>
+        <string>2015</string>
+    </dict>
+</array>
+</plist>
