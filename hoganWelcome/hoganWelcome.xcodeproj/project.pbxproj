@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DAAA4A02017A062003F9FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA49F2017A062003F9FAF /* AppDelegate.swift */; };
+		8DAAA4A22017A062003F9FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA4A12017A062003F9FAF /* ViewController.swift */; };
+		8DAAA4A52017A062003F9FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA4A32017A062003F9FAF /* Main.storyboard */; };
+		8DAAA4A72017A062003F9FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA4A62017A062003F9FAF /* Assets.xcassets */; };
+		8DAAA4AA2017A062003F9FAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA4A82017A062003F9FAF /* LaunchScreen.storyboard */; };
+		8DAAA4B52017A062003F9FAF /* hoganWelcomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA4B42017A062003F9FAF /* hoganWelcomeTests.swift */; };
+		8DAAA4C02017A062003F9FAF /* hoganWelcomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAA4BF2017A062003F9FAF /* hoganWelcomeUITests.swift */; };
+		8DAAA4CF2017A583003F9FAF /* gstudents.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA4CD2017A582003F9FAF /* gstudents.jpg */; };
+		8DAAA4D02017A583003F9FAF /* ustudents.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA4CE2017A582003F9FAF /* ustudents.jpg */; };
+		8DAAA4D22017A963003F9FAF /* html in Resources */ = {isa = PBXBuildFile; fileRef = 8DAAA4D12017A963003F9FAF /* html */; };
+		8DC7A877201A48BD000B721E /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC7A876201A48BD000B721E /* AuthorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DAAA4B12017A062003F9FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DAAA4942017A062003F9FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DAAA49B2017A062003F9FAF;
+			remoteInfo = hoganWelcome;
+		};
+		8DAAA4BC2017A062003F9FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DAAA4942017A062003F9FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DAAA49B2017A062003F9FAF;
+			remoteInfo = hoganWelcome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DAAA49C2017A062003F9FAF /* hoganWelcome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoganWelcome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAAA49F2017A062003F9FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DAAA4A12017A062003F9FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DAAA4A42017A062003F9FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DAAA4A62017A062003F9FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DAAA4A92017A062003F9FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DAAA4AB2017A062003F9FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAAA4B02017A062003F9FAF /* hoganWelcomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hoganWelcomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAAA4B42017A062003F9FAF /* hoganWelcomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoganWelcomeTests.swift; sourceTree = "<group>"; };
+		8DAAA4B62017A062003F9FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAAA4BB2017A062003F9FAF /* hoganWelcomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hoganWelcomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAAA4BF2017A062003F9FAF /* hoganWelcomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoganWelcomeUITests.swift; sourceTree = "<group>"; };
+		8DAAA4C12017A062003F9FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAAA4CD2017A582003F9FAF /* gstudents.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gstudents.jpg; sourceTree = "<group>"; };
+		8DAAA4CE2017A582003F9FAF /* ustudents.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ustudents.jpg; sourceTree = "<group>"; };
+		8DAAA4D12017A963003F9FAF /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		8DC7A876201A48BD000B721E /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DAAA4992017A062003F9FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAAA4AD2017A062003F9FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAAA4B82017A062003F9FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DAAA4932017A062003F9FAF = {
+			isa = PBXGroup;
+			children = (
+				8DAAA49E2017A062003F9FAF /* hoganWelcome */,
+				8DAAA4B32017A062003F9FAF /* hoganWelcomeTests */,
+				8DAAA4BE2017A062003F9FAF /* hoganWelcomeUITests */,
+				8DAAA49D2017A062003F9FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DAAA49D2017A062003F9FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DAAA49C2017A062003F9FAF /* hoganWelcome.app */,
+				8DAAA4B02017A062003F9FAF /* hoganWelcomeTests.xctest */,
+				8DAAA4BB2017A062003F9FAF /* hoganWelcomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DAAA49E2017A062003F9FAF /* hoganWelcome */ = {
+			isa = PBXGroup;
+			children = (
+				8DAAA49F2017A062003F9FAF /* AppDelegate.swift */,
+				8DAAA4A12017A062003F9FAF /* ViewController.swift */,
+				8DAAA4CD2017A582003F9FAF /* gstudents.jpg */,
+				8DAAA4CE2017A582003F9FAF /* ustudents.jpg */,
+				8DAAA4A32017A062003F9FAF /* Main.storyboard */,
+				8DC7A876201A48BD000B721E /* AuthorViewController.swift */,
+				8DAAA4A62017A062003F9FAF /* Assets.xcassets */,
+				8DAAA4A82017A062003F9FAF /* LaunchScreen.storyboard */,
+				8DAAA4AB2017A062003F9FAF /* Info.plist */,
+				8DAAA4D12017A963003F9FAF /* html */,
+			);
+			path = hoganWelcome;
+			sourceTree = "<group>";
+		};
+		8DAAA4B32017A062003F9FAF /* hoganWelcomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DAAA4B42017A062003F9FAF /* hoganWelcomeTests.swift */,
+				8DAAA4B62017A062003F9FAF /* Info.plist */,
+			);
+			path = hoganWelcomeTests;
+			sourceTree = "<group>";
+		};
+		8DAAA4BE2017A062003F9FAF /* hoganWelcomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DAAA4BF2017A062003F9FAF /* hoganWelcomeUITests.swift */,
+				8DAAA4C12017A062003F9FAF /* Info.plist */,
+			);
+			path = hoganWelcomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DAAA49B2017A062003F9FAF /* hoganWelcome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAAA4C42017A062003F9FAF /* Build configuration list for PBXNativeTarget "hoganWelcome" */;
+			buildPhases = (
+				8DAAA4982017A062003F9FAF /* Sources */,
+				8DAAA4992017A062003F9FAF /* Frameworks */,
+				8DAAA49A2017A062003F9FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hoganWelcome;
+			productName = hoganWelcome;
+			productReference = 8DAAA49C2017A062003F9FAF /* hoganWelcome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DAAA4AF2017A062003F9FAF /* hoganWelcomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAAA4C72017A062003F9FAF /* Build configuration list for PBXNativeTarget "hoganWelcomeTests" */;
+			buildPhases = (
+				8DAAA4AC2017A062003F9FAF /* Sources */,
+				8DAAA4AD2017A062003F9FAF /* Frameworks */,
+				8DAAA4AE2017A062003F9FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DAAA4B22017A062003F9FAF /* PBXTargetDependency */,
+			);
+			name = hoganWelcomeTests;
+			productName = hoganWelcomeTests;
+			productReference = 8DAAA4B02017A062003F9FAF /* hoganWelcomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DAAA4BA2017A062003F9FAF /* hoganWelcomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DAAA4CA2017A062003F9FAF /* Build configuration list for PBXNativeTarget "hoganWelcomeUITests" */;
+			buildPhases = (
+				8DAAA4B72017A062003F9FAF /* Sources */,
+				8DAAA4B82017A062003F9FAF /* Frameworks */,
+				8DAAA4B92017A062003F9FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DAAA4BD2017A062003F9FAF /* PBXTargetDependency */,
+			);
+			name = hoganWelcomeUITests;
+			productName = hoganWelcomeUITests;
+			productReference = 8DAAA4BB2017A062003F9FAF /* hoganWelcomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DAAA4942017A062003F9FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Byron Hogan";
+				TargetAttributes = {
+					8DAAA49B2017A062003F9FAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8DAAA4AF2017A062003F9FAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DAAA49B2017A062003F9FAF;
+					};
+					8DAAA4BA2017A062003F9FAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DAAA49B2017A062003F9FAF;
+					};
+				};
+			};
+			buildConfigurationList = 8DAAA4972017A062003F9FAF /* Build configuration list for PBXProject "hoganWelcome" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DAAA4932017A062003F9FAF;
+			productRefGroup = 8DAAA49D2017A062003F9FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DAAA49B2017A062003F9FAF /* hoganWelcome */,
+				8DAAA4AF2017A062003F9FAF /* hoganWelcomeTests */,
+				8DAAA4BA2017A062003F9FAF /* hoganWelcomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DAAA49A2017A062003F9FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAAA4AA2017A062003F9FAF /* LaunchScreen.storyboard in Resources */,
+				8DAAA4D22017A963003F9FAF /* html in Resources */,
+				8DAAA4CF2017A583003F9FAF /* gstudents.jpg in Resources */,
+				8DAAA4D02017A583003F9FAF /* ustudents.jpg in Resources */,
+				8DAAA4A72017A062003F9FAF /* Assets.xcassets in Resources */,
+				8DAAA4A52017A062003F9FAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAAA4AE2017A062003F9FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAAA4B92017A062003F9FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DAAA4982017A062003F9FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAAA4A22017A062003F9FAF /* ViewController.swift in Sources */,
+				8DAAA4A02017A062003F9FAF /* AppDelegate.swift in Sources */,
+				8DC7A877201A48BD000B721E /* AuthorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAAA4AC2017A062003F9FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAAA4B52017A062003F9FAF /* hoganWelcomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DAAA4B72017A062003F9FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAAA4C02017A062003F9FAF /* hoganWelcomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DAAA4B22017A062003F9FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DAAA49B2017A062003F9FAF /* hoganWelcome */;
+			targetProxy = 8DAAA4B12017A062003F9FAF /* PBXContainerItemProxy */;
+		};
+		8DAAA4BD2017A062003F9FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DAAA49B2017A062003F9FAF /* hoganWelcome */;
+			targetProxy = 8DAAA4BC2017A062003F9FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DAAA4A32017A062003F9FAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAAA4A42017A062003F9FAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DAAA4A82017A062003F9FAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DAAA4A92017A062003F9FAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DAAA4C22017A062003F9FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DAAA4C32017A062003F9FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DAAA4C52017A062003F9FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hoganWelcome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hogan.hoganWelcome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DAAA4C62017A062003F9FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hoganWelcome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hogan.hoganWelcome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DAAA4C82017A062003F9FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hoganWelcomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hogan.hoganWelcomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoganWelcome.app/hoganWelcome";
+			};
+			name = Debug;
+		};
+		8DAAA4C92017A062003F9FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hoganWelcomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hogan.hoganWelcomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoganWelcome.app/hoganWelcome";
+			};
+			name = Release;
+		};
+		8DAAA4CB2017A062003F9FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hoganWelcomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hogan.hoganWelcomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hoganWelcome;
+			};
+			name = Debug;
+		};
+		8DAAA4CC2017A062003F9FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hoganWelcomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hogan.hoganWelcomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hoganWelcome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DAAA4972017A062003F9FAF /* Build configuration list for PBXProject "hoganWelcome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAAA4C22017A062003F9FAF /* Debug */,
+				8DAAA4C32017A062003F9FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAAA4C42017A062003F9FAF /* Build configuration list for PBXNativeTarget "hoganWelcome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAAA4C52017A062003F9FAF /* Debug */,
+				8DAAA4C62017A062003F9FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAAA4C72017A062003F9FAF /* Build configuration list for PBXNativeTarget "hoganWelcomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAAA4C82017A062003F9FAF /* Debug */,
+				8DAAA4C92017A062003F9FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DAAA4CA2017A062003F9FAF /* Build configuration list for PBXNativeTarget "hoganWelcomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DAAA4CB2017A062003F9FAF /* Debug */,
+				8DAAA4CC2017A062003F9FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DAAA4942017A062003F9FAF /* Project object */;
+}
